@@ -1,0 +1,48 @@
+{
+  "name": "mpl1-portfolio-cms",
+  "version": "1.0.0",
+  "description": "Production-ready portfolio CMS with Sanity and Next.js",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "format": "prettier --write \"src/**/*.{ts,tsx,json,css,md}\"",
+    "type-check": "tsc --noEmit",
+    "sanity:dev": "sanity dev",
+    "sanity:build": "sanity build"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sanity": "^3.20.0",
+    "next-sanity": "^6.2.0",
+    "@sanity/image-url": "^1.0.0",
+    "framer-motion": "^11.0.0",
+    "lenis": "^1.1.0",
+    "clsx": "^2.1.0",
+    "tailwindcss": "^3.4.0",
+    "react-email": "^0.0.16",
+    "resend": "^3.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.12.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.34.0",
+    "prettier": "^3.2.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "@sanity/cli": "^3.20.0"
+  }
+}
