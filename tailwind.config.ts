@@ -19,6 +19,28 @@ const config: Config = {
         sans: ["var(--font-sans)"],
         mono: ["var(--font-mono)"],
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            color: "var(--color-foreground)",
+            a: {
+              color: "var(--color-primary)",
+              "&:hover": {
+                color: "var(--color-primary)",
+              },
+            },
+            h1: {
+              color: "var(--color-foreground)",
+            },
+            h2: {
+              color: "var(--color-foreground)",
+            },
+            h3: {
+              color: "var(--color-foreground)",
+            },
+          },
+        },
+      },
     },
   },
   plugins: [],

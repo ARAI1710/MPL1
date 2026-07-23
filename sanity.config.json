@@ -1,0 +1,11 @@
+{
+  "name": "mpl1-cms",
+  "private": true,
+  "version": "1.0.0",
+  "title": "MPL1 - Production Portfolio CMS",
+  "projectId": "replace-with-your-project-id",
+  "dataset": "production",
+  "plugins": [
+    "@sanity/vision"
+  ]
+}
